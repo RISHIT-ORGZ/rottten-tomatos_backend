@@ -269,6 +269,5 @@ api = Proxy
 -- FOR MY SQL DBS
 app :: Application
 app = serve api server
-
 -- main :: IO ()
 -- main = run 8081 app1
