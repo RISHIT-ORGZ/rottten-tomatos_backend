@@ -28,6 +28,7 @@ import           System.Environment           (getArgs)
 
 import Lib
 
+
 main :: IO ()
 main = do
     args <- getArgs
