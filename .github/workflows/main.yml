@@ -1,0 +1,13 @@
+name: test workflow
+
+on:
+  fork
+  
+jobs:
+  test_job:
+    runs-on: ubuntu-20.04
+    steps:
+    
+      - name: step 1
+        run: |
+          echo "test"
