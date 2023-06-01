@@ -1,7 +1,7 @@
 name: test workflow
 
 on:
-  fork
+  push
   
 jobs:
   test_job:
